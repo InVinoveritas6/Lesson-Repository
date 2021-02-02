@@ -45,7 +45,7 @@
 //  console.log(--decr);
 
 //.....Lesson №6
- 
+
 // console.log(4%2);
 
 // const isChecked = true,
@@ -56,5 +56,40 @@
 // };
 // console.log(Nba);
 
-//.....Lesson №7
+//.....Lesson №10
 
+// if (4) {
+//    console.log('Ок');
+// } else {
+//    console.log('error');
+// };
+
+// const num = 50;
+
+// if (num < 49) {
+//    console.log('error');
+// } else if (num > 100) {
+//    console.log('Много');
+// } else {
+//    console.log('Ok');
+// }
+
+// (num === 49) ? console.log('Ok') : console.log('Error');
+
+// const num = 50;
+
+
+// switch (num) {
+//    case 49:
+//       console.log('Неверно');
+//       break;
+//    case 100:
+//       console.log('Неверно');
+//       break;
+//    case 50:
+//       console.log('В точку');
+//       break;
+//    default:
+//       console.log('No');
+//       break;
+// }
