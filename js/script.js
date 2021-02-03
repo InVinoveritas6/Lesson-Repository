@@ -1,6 +1,6 @@
 "use strict";
 
-//.....Lesson №2
+//.................................................Lesson №2............................................
 
 // let number = 5;
 // const leftBorderWidth = 1;
@@ -9,7 +9,7 @@
 
 // console.log(number);
 
-//.....Lesson №3
+//.................................................Lesson №3............................................
 
 // const obj = {
 //    name: "John",
@@ -18,7 +18,7 @@
 // }
 // console.log(obj["name"]);
 
-//.....Lesson №4
+//.................................................Lesson №4............................................
 
 //  const res = confirm('hello');
 //  console.log(res);
@@ -34,7 +34,7 @@
 
 // document.write(answers)
 
-//.....Lesson №5
+//.................................................Lesson №5............................................
 
 //  let incr = 10,
 //      decr = 10;
@@ -44,7 +44,7 @@
 //  console.log(++incr);
 //  console.log(--decr);
 
-//.....Lesson №6
+//.................................................Lesson №6............................................
 
 // console.log(4%2);
 
@@ -56,7 +56,7 @@
 // };
 // console.log(Nba);
 
-//.....Lesson №10
+//.................................................Lesson №10............................................
 
 // if (4) {
 //    console.log('Ок');
@@ -93,7 +93,7 @@
 //       console.log('No');
 //       break;
 //
-//.....Lesson №11
+//.................................................Lesson №11............................................
 
 // let num = 50;
 
@@ -120,3 +120,41 @@
 //    console.log(i);
 // }
 
+//.................................................Lesson №13............................................
+
+// let num = 20;
+
+// function showFirstMassage(text) {
+//    console.log(text);
+//    num = 10;
+//    console.log(num);
+// }
+
+// showFirstMassage("Hello word");
+// console.log(num);
+
+// function calc(a, b) {
+//    return (a + b);
+// }
+
+// console.log(calc(4, 3));
+// console.log(calc(5, 6));
+// console.log(calc(10, 3));
+
+// function ret() {
+//    let num = 50;
+//    return num;
+// }
+
+// const another = ret();
+// console.log(another);
+
+// let logger = function () {
+//    console.log("Hello");
+// };
+
+// logger();
+
+// const calc = (a, b) => {return a + b};
+
+//.................................................Lesson №14............................................
