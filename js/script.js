@@ -260,3 +260,37 @@
 
 //.................................................Lesson №18............................................
 
+// const arr = [1, 24, 32, 4, 8];
+// arr.sort(compareNum);
+// console.log(arr);
+
+// function compareNum(a, b) {
+//    return a-b;
+// }
+
+// arr[99]=0;
+// console.log(arr.length);
+
+// arr.forEach(function(item, i, arr){
+//    console.log(`${i}: ${item} внутри массива ${arr}`);
+// });
+
+// const str = prompt('','');
+// const product = str.split(", ");
+// product.sort();
+// console.log(product.join('; '));
+
+// arr.pop();
+// arr.push(10);
+
+// for (let i=0; i < arr.length; i++) {
+//    console.log(arr[i]);
+// }
+// for (let value of arr) {
+//    console.log(value);
+// }
+// console.log(arr);
+
+//.................................................Lesson №19............................................
+
+
