@@ -448,7 +448,7 @@
 
 // let answ = +prompt('fe');
 
-//.................................................Lesson №23......................................
+//.................................................Lesson №24......................................
 
 // let sitcher = null;
 
@@ -466,6 +466,28 @@
 
 // console.log(typeof(!!'4'));
 
-//.................................................Lesson №24......................................
+//.................................................Lesson №25......................................
 
+// const box = document.getElementById("box");
 
+// console.log(box);
+
+// const btns = document.getElementsByTagName("button")[1];
+
+// console.log(btns);
+
+// const crls = document.getElementsByClassName("circle");
+
+// console.log(crls[0]);
+
+// const hearts = document.querySelectorAll('.hearts');
+
+// hearts.forEach(function (item) {
+//    console.log(item);
+// });
+
+// console.log(hearts);
+
+// const oneHeart = document.querySelector(".hearts");
+
+// console.log(oneHeart);
