@@ -428,3 +428,44 @@
 // console.log(john);
 
 // john.sayHello();
+
+//.................................................Lesson №22......................................
+
+// console.log(typeof(String(null)));
+// console.log(typeof(String(4)));
+
+// console.log(typeof(5+''));
+
+// const num = 5;
+
+// console.log("https://vk.com/catalog/" + 5);
+
+// const fontSize = 26 + 'px';
+
+// console.log(typeof(+'hello con'));
+
+// console.log(typeof(parseInt("15px", 10)));
+
+// let answ = +prompt('fe');
+
+//.................................................Lesson №23......................................
+
+// let sitcher = null;
+
+// if (sitcher) {
+//    console.log('hello');
+// }
+
+// sitcher = 1;
+
+// if (sitcher) {
+//    console.log('hello');
+// }
+
+// console.log(typeof(Boolean(4)));
+
+// console.log(typeof(!!'4'));
+
+//.................................................Lesson №24......................................
+
+
