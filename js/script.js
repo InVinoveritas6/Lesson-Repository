@@ -491,3 +491,55 @@
 // const oneHeart = document.querySelector(".hearts");
 
 // console.log(oneHeart);
+
+//.................................................Lesson №26......................................
+
+const box = document.getElementById("box"),
+      btns = document.getElementsByTagName("button"),
+      crls = document.getElementsByClassName("circle"),
+      hearts = document.querySelectorAll('.hearts'),
+      oneHeart = document.querySelector(".hearts"),
+      wrapper = document.querySelector('.wrapper');
+
+// box.style.backgroundColor = 'blue';
+// box.style.width = '500px';
+
+box.style.cssText = 'background-color: blue; width: 500px';
+
+btns[1].style.borderRadius = '100%';
+crls[0].style.backgroundColor = 'red';
+
+// for (let i=0; i< hearts.length; i++) {
+//    hearts[i].style.backgroundColor = 'blue';
+// }
+
+hearts.forEach(function(item){
+   item.style.backgroundColor = 'blue';
+});
+
+const div = document.createElement('div');
+// const text = document.createTextNode('Тут был я');
+
+div.classList.add('black');
+
+document.body.append(div);
+
+wrapper.append(div);
+// wrapper.appendChild(div);
+
+// wrapper.prepend(div);
+// wrapper.insertBefore(div, hearts[0]);
+// hearts[0].before(div);
+
+// hearts[0].after(div);
+
+// crls[0].remove();
+// wrapper.removeChild(hearts[1])
+
+// crls[0].replaceWith(box);
+
+div.innerHTML = "<h1>hello world</h1>";
+
+// div.textContent = "hello";
+
+div.insertAdjacentHTML('afterbegin', '<h2>Hello World</h2>');
