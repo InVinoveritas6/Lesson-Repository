@@ -558,11 +558,11 @@
 // const delete1 = (e) => {
 //    console.log(e.currentTarget);
 //    console.log(e.type);
-   // i++;
-   // if (i == 1) {
-   //    btn[0].removeEventListener('click', delete1);
+// i++;
+// if (i == 1) {
+//    btn[0].removeEventListener('click', delete1);
 
-   // }
+// }
 // };
 
 // btn.addEventListener('click', delete1);
@@ -581,3 +581,25 @@
 // }, {
 //    once: true
 // });
+
+//.................................................Lesson №28......................................
+
+// console.log(document.head);
+
+// console.log(document.documentElement);
+
+// console.log(document.body.childNodes);
+// console.log(document.body.firstChild);
+// console.log(document.body.lastChild);
+
+// console.log(document.querySelector('.current').parentNode.parentNode);
+
+// console.log(document.querySelector('[data-current="3"]').nextSibling);
+// console.log(document.querySelector('[data-current="3"]').previousSibling);
+
+// for (let node of document.body.childNodes) {
+//    if (node.nodeName == '#text') {
+//       continue;
+//    }
+//    console.log(node);
+// }
