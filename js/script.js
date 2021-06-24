@@ -603,3 +603,34 @@
 //    }
 //    console.log(node);
 // }
+
+// //.................................................Lesson №29......................................
+
+// window.addEventListener('DOMContentLoaded', () => {
+//    const circleTouch = document.querySelectorAll('.circle');
+
+//    circleTouch[0].addEventListener('touchstart', (e) => {
+//       e.preventDefault();
+
+//       console.log('Start');
+//       console.log(e.touches);
+//       console.log(e.targetTouches);
+//       console.log(e.changedTouches);
+
+//    });
+//    circleTouch[0].addEventListener('touchmove', (e) => {
+//       e.preventDefault();
+
+//       console.log('Move');
+//    });
+//    circleTouch[0].addEventListener('touchend', (e) => {
+//       e.preventDefault();
+
+//       console.log('END');
+//    });
+//    circleTouch[0].addEventListener('touchenter', (e) => {
+//       e.preventDefault();
+
+//       console.log('Enter');
+//    });
+// });
