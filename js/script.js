@@ -634,3 +634,16 @@
 //       console.log('Enter');
 //    });
 // });
+
+//.................................................Lesson №30......................................
+
+
+// function loadScript(src) {
+//    const script = document.createElement('script');
+//    script.src = src;
+//    script.async = false;
+//    document.body.append(script);
+// }
+
+// loadScript("js/newScript.js", "js/test.js" );
+// loadScript("js/test.js");
